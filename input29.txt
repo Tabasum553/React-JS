@@ -1,0 +1,55 @@
+<html>
+<style>
+input[type=text] {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid green;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+div {
+  border-radius: 5px;
+  padding: 20px;
+}
+p.small {
+  line-height: 0.0;
+}
+</style>
+<body>
+<center>
+<p class="small">
+<br><input type="text"/></br>
+<br><input type="text"/></br>
+<br><input type="text"/></br>
+<br><input type="text"/></br>
+<br><input type="text"/></br>
+<br><input type="text"/></br>
+<br><input type="text"/></br>
+<br><input type="text"/></br>
+<br><input type="text"/></br>
+<br><input type="text"/></br>
+<br><input type="text"/></br>
+<br><input type="text"/></br>
+<br><input type="text"/></br>
+<br><input type="text"/></br>
+<br><input type="text"/></br>
+<br><input type="text"/></br>
+<br><input type="text"/></br>
+<br><input type="text"/></br>
+<br><input type="text"/></br>
+<br><input type="text"/></br>
+<br><input type="text"/></br>
+<br><input type="text"/></br>
+<br><input type="text"/></br>
+<br><input type="text"/></br>
+<br><input type="text"/></br>
+<br><input type="text"/></br>
+<br><input type="text"/></br>
+<br><input type="text"/></br>
+<br><input type="text"/></br>
+</p>
+</center>
+</body>
+</html>

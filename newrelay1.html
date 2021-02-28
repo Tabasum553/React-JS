@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.dropbtn {
+  background-color: white;
+  color: black;
+  padding: 16px;
+  font-size: 14px;
+  border: 1px solid green;
+  box-sizing: 50%;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #98FB98;
+}
+
+.dropdown {
+  position: center;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+input[type=text]{
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid green;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+div {
+  border-radius: 5px;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+<center>
+<br>
+    <input type="text" id="rid" name="relayid" placeholder="Relay Id">
+    </br>
+    <br>
+    <input type="text" id="rname"  name="relayname" placeholder="Relay name">
+    </br>
+    <br>
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Module</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="input1.html" onclick="myFunction()">1</a>
+    <a href="input2.html" onclick="myFunction()">2</a>
+    <a href="input3.html" onclick="myFunction()">3</a>
+    <a href="input4.html" onclick="myFunction()">4</a>
+    <a href="input5.html" onclick="myFunction()">5</a>
+    <a href="input6.html" onclick="myFunction()">6</a>
+    <a href="input7.html" onclick="myFunction()">7</a>
+    <a href="input8.html" onclick="myFunction()">8</a>
+    <a href="input9.html" onclick="myFunction()">9</a>
+    <a href="input10.html" onclick="myFunction()">10</a>
+    <a href="input11.html" onclick="myFunction()">11</a>
+    <a href="input12.html" onclick="myFunction()">12</a>
+    <a href="input13.html" onclick="myFunction()">13</a>
+    <a href="input14.html" onclick="myFunction()">14</a>
+    <a href="input15.html" onclick="myFunction()">15</a>
+    <a href="input16.html" onclick="myFunction()">16</a>
+    <a href="input17.html" onclick="myFunction()">17</a>
+    <a href="input18.html" onclick="myFunction()">18</a>
+    <a href="input19.html" onclick="myFunction()">19</a>
+    <a href="input20.html" onclick="myFunction()">20</a>
+    <a href="input21.html" onclick="myFunction()">21</a>
+    <a href="input22.html" onclick="myFunction()">22</a>
+    <a href="input23.html" onclick="myFunction()">23</a>
+    <a href="input24.html" onclick="myFunction()">24</a>
+    <a href="input25.html" onclick="myFunction()">25</a>
+    <a href="input26.html" onclick="myFunction()">26</a>
+    <a href="input27.html" onclick="myFunction()">27</a>
+    <a href="input28.html" onclick="myFunction()">28</a>
+    <a href="input29.html" onclick="myFunction()">29</a>
+    <a href="input30.html" onclick="myFunction()">30</a>
+    <a href="input31.html" onclick="myFunction()">31</a>
+    <a href="input32.html" onclick="myFunction()">32</a>
+  </div>
+</div>
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+</center>
+</body>
+</html>

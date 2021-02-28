@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text], select {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid green;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+div {
+  border-radius: 5px;
+  padding: 20px;
+}
+</style>
+<body>
+<center>
+<div>
+  <form action="/action_page.php">
+    <br>
+    <input type="text" id="sid" name="sensorid" placeholder="Sensor ID">
+    </br>
+    <br>
+    <input type="text" id="sname"  name="sensorname" placeholder="Sensor name">
+    </br>
+  </form>
+</div>
+</center>
+
+</body>
+</html>
